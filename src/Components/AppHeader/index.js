@@ -1,5 +1,5 @@
 const Header = () => {
-  return <h1>Find Your Bank || GROWW</h1>;
+  return <div>Find Your Bank || GROWW</div>;
 };
 
 export default Header;

@@ -1,0 +1,30 @@
+.bank-list table {
+  border-collapse: collapse;
+  font-size: 0.9em;
+  min-width: 800px;
+  border-radius: 5px 5px 0 0;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  margin-bottom: 20px;
+}
+
+.bank-list table th,
+.bank-list table td {
+  padding: 12px 15px;
+  max-width: 500px;
+}
+.bank-list tbody tr {
+  border-bottom: 1px solid #ddd;
+}
+
+.bank-list tbody tr:hover {
+  cursor: pointer;
+  background-color: #f5f5f5;
+}
+.bank-list tbody tr:last-of-type {
+  border-bottom: 2px solid #d3d3d3;
+}
+
+.bank-list table thead {
+  background-color: #d3d3d3;
+}

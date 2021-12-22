@@ -1,0 +1,17 @@
+.app-container .header {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid black;
+}
+
+.app-container .side-nav-bar {
+  padding-left: 20px;
+  width: 150px;
+}
+
+.app-container .main-container {
+  padding: 20px;
+  width: 100%;
+}

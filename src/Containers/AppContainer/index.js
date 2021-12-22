@@ -1,18 +1,21 @@
 import { Outlet } from "react-router-dom";
 import Header from "../../Components/AppHeader";
 import SideNavBar from "../../Components/SideNavBar";
+import "./index.css";
 
 const AppContainer = () => {
   return (
     <div className="app-container">
-      <div className="app-header">
+      <div className="header">
         <Header />
       </div>
-      <div className="app-side-nav-bar">
-        <SideNavBar />
-      </div>
-      <div className="app-main-container">
-        <Outlet />
+      <div style={{ display: "flex" }}>
+        <div className="side-nav-bar">
+          <SideNavBar />
+        </div>
+        <div className="main-container">
+          <Outlet />
+        </div>
       </div>
     </div>
   );

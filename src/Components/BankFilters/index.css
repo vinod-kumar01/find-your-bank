@@ -1,0 +1,12 @@
+.main-container-filters {
+  display: flex;
+  width: 500px;
+  justify-content: space-evenly;
+}
+.main-container-filters select {
+  height: 30px;
+}
+
+.main-container-filters input {
+  height: 25px;
+}

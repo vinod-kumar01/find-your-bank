@@ -1,0 +1,9 @@
+.main-container-heading {
+  font-size: 22px;
+  font-weight: 600;
+}
+.main-container-header {
+  height: 75px;
+  display: flex;
+  justify-content: space-between;
+}
